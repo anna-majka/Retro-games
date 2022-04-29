@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    color: #e8e1f2;
+}
+h1{
+    color: #e8e1f2;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 3px;
+}
+p{
+    color: #e8e1f2;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.wrapper{
+    /*margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+.game{
+    margin: 10px;
+    padding: 75px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: inline;
+    float: left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1em;
+}
+.game:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.first{
+    background-image: linear-gradient(to right, #2196f3 0%, #f44336  51%, #2196f3  100%);
+}
+.second{
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.third{
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+}
+.fourth{
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+.fifth {
+    background-color: #52ACFF;
+    background-image: linear-gradient(5deg, #52ACFF 25%, #FFE32C 100%);
+}
+.sixth{
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);    
+}
+.seventh{
+    background-color: #02fb20;
+    background-image: linear-gradient(19deg, #02fb20 0%, #cc08b4 82%);
+}
+.eigth{
+    background-image: linear-gradient( 85deg,  rgba(255,202,88,1) 0%, rgba(139,73,255,1) 100.2% );
+}
+.ninth{
+    background-image: linear-gradient( 80deg,  rgba(244,37,243,1) 1.4%, rgba(244,87,1,1) 36.2%, rgba(255,204,37,1) 72.2%, rgba(20,196,6,1) 113% );
+}
+a{
+    text-decoration: none;
+    color: white;
+}
