@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    color: #2196f3;
+  }
+  h2, h3{
+    text-align: center;
+    padding: 0.5em;
+  }
+  h2{
+      color: whitesmoke;
+  }
+  h4{
+    margin-top: 200px;
+    font-size: 0.8em;
+    text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #C09AF4; 
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.btn-grad {
+    background-image: linear-gradient(to right, #2196f3 0%, #f44336  51%, #2196f3  100%)
+}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: inline;
+    float: left;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
