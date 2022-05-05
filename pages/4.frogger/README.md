@@ -4,7 +4,7 @@ Frogger is a 1981 arcade game developed by Konami and originally published by Se
 
 The styling is my idea, inspired by retro video games.
 
-# Rules of Frogger
+## Rules of Frogger
 * You will start on your blue starting block, or 'starting-block'
 * You have 20 seconds from pressing the start button to get to your red block or 'ending-block' to win the game
 * You will lose if the time runs out
@@ -15,7 +15,7 @@ The styling is my idea, inspired by retro video games.
 * You will move with the logs when on them
 * You can pause the game by pressing the same button as you did to start the game
 
-# What I learned :
+## What I learned :
 * switch
 * cases
 * addEventListener
