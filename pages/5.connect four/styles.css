@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: #66c4ff;
+    font-family: 'Press Start 2P', cursive;
+}
+h2, h3, h4{
+    text-align: center;
+    padding: 40px;
+}
+a{
+    text-decoration: none;
+    color: #C09AF4;
+}
+.grid{
+    margin: 0 auto;
+    border: 1px solid #66c4ff;
+    height: 360px;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+    height: 60px;
+    width: 60px;
+}
+.player-one{
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    border-radius: 50%;
+}
+.player-two{
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    border-radius: 50%;
+}
