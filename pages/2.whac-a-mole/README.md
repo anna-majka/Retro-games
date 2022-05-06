@@ -1,3 +1,5 @@
+# Whac-a-mole
+
 The "Whac-a-mole", a simple HTML, CSS and JavaScript grid-based game.
 Inspired by [Ania Kubów](https://github.com/kubowania/whac-a-mole) & freeCodeCamp [tutorial](https://www.youtube.com/watch?v=ec8vSKJuZTk&t=1s).
 
