@@ -1,3 +1,5 @@
+# Space Invaders
+
 The "Space Invaders" is a HTML, CSS and vanilla JavaScript grid-based game. 
 Inspired by [Ania Kubów](https://github.com/kubowania/space-invaders) & freeCodeCamp [tutorial](https://www.youtube.com/watch?v=ec8vSKJuZTk&t=1s).
 
