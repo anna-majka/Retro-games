@@ -1,0 +1,68 @@
+body{
+    background-color: /*#ec6e57;*/black;
+    font-family: 'Press Start 2P', cursive;
+    color: #e8e1f2;
+}
+h4{
+    text-align: center;
+    padding: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: /*#87287a;#8A4A8C;*/#C09AF4;
+}
+.grid{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+.grid div{
+    height: 40px;
+    width: 40px;
+}
+.snake{
+    background-color: #02fb20;
+}
+.apple{
+    background-color: #cc08b4;
+    border-radius: 50%;
+}
+.score{
+    margin-left: 45%;
+    margin-bottom: 50px;
+    color: #ec6e57;
+}
+/*----------button--------*/
+#start-btn{
+    margin-left: 42%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-grad {
+    background: linear-gradient(90deg, rgba(111,23,55,1) 0%, rgba(236,110,87,1) 58%);
+    justify-content: center;
+}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    /*transition: 0.5s;*/
+    border-color: white;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    justify-content: center;
+
+  }
+  /*.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    /*color: #fff;
+    text-decoration: none;
+  }*/
