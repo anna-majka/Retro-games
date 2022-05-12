@@ -1,10 +1,12 @@
+# Tetris
+
 The "Tetris" game. 
 Inspired by [Ania Kubów](https://github.com/kubowania/Tetris-Basic) [tutorial](https://www.youtube.com/watch?v=w1JJfK09ujQ).
 
 Tetris is a puzzle video game created by Soviet software engineer Alexey Pajitnov in 1984.
 
 ## Rules
-Players complete lines by moving differently shaped pieces, which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. 
+Players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. 
 
 ## Styling :
 The styling is my idea, inspired by retro video games.
